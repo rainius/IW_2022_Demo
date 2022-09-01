@@ -3,6 +3,12 @@ plugins {
 }
 
 android {
+
+    //激活视图绑定
+    viewBinding {
+        enabled = true
+    }
+
     compileSdk 32
 
     defaultConfig {
